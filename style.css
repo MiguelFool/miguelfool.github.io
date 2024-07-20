@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body{
+    background-color: black;
+}
+
+
+#cima{
+    display: flex;
+    flex-direction: row;
+}
+
+#meio{
+    display: flex;
+    flex-direction: row;
+}
+
+#faixa{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    color: #C2F2F2;
+    background-color: #1D4E59;
+}
+
+#img img{
+    margin-top: 3%;
+    width: 503px;
+    height: 217px;
+    border-radius: 108.5px;
+    margin-left: 15%;
+}
+
+#sobre {
+    margin-left: 10%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 75em;
+}
+
+.header h1 {
+    text-align: center;
+    height: inherit;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 32px;
+    color: #85F2F2;
+    background-color: #1D4E59;
+    border-radius: 10em;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#sobre ul {
+    padding: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 32px;
+    color: #85F2F2;
+    text-align: center;
+    list-style: none;
+}
+
+#inf {
+    width: 30%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion{
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.accordion-button{
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 32px;
+    color: #85F2F2;
+    background-color: #1D4E59;
+    border-radius: 10em;
+}
+
+#inf ul {
+    padding: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+    list-style: none;
+    width: 100%; /* Ocupa toda a largura da div */
+}
+
+#contato{
+    text-align: center;
+}
+
+#contato h1{
+    margin-bottom: 20px;
+    text-align: center;
+    height: inherit;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 32px;
+    color: #85F2F2;
+    background-color: #1D4E59;
+    width: 200%;
+    margin-left: -50%;
+    border-radius: 10em;
+}
+
+#contato h2{
+    height: inherit;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    color: #43D9D9;
+}
+
+#contato p{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    height: inherit;
+    color: #E6E6E6;
+}
+
+#contato li{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    #cima {
+        flex-direction: column; /* Alinha em coluna em telas menores */
+    }
+
+    #home h1 {
+        font-size: 30px; /* Ajusta o tamanho da fonte */
+    }
+
+    #home img {
+        width: 80%; /* Ajusta a largura da imagem */
+    }
+
+    #sobre {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 992px) {
+    #meio {
+        flex-direction: column; /* Alinha em coluna em telas menores */
+    }
+
+    #inf {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .accordion-button {
+        font-size: 24px; /* Ajusta o tamanho da fonte */
+    }
+
+    #contato h1 {
+        font-size: 28px; /* Ajusta o tamanho da fonte */
+    }
+
+    #contato p {
+        font-size: 20px; /* Ajusta o tamanho da fonte */
+    }
+}
+
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 24px; /* Ajusta o tamanho da fonte */
+    }
+
+    #home img {
+        width: 90%; /* Ajusta a largura da imagem */
+    }
+
+    .accordion-button {
+        font-size: 20px; /* Ajusta o tamanho da fonte */
+    }
+
+    #contato h1 {
+        font-size: 24px; /* Ajusta o tamanho da fonte */
+    }
+
+    #contato p {
+        font-size: 18px; /* Ajusta o tamanho da fonte */
+    }
+}
+
+@media (max-width: 576px) {
+    #home h1 {
+        font-size: 20px; /* Ajusta o tamanho da fonte */
+    }
+
+    #home img {
+        width: 100%; /* Ajusta a largura da imagem */
+    }
+
+    .accordion-button {
+        font-size: 18px; /* Ajusta o tamanho da fonte */
+    }
+
+    #contato h1 {
+        font-size: 20px; /* Ajusta o tamanho da fonte */
+    }
+
+    #contato p {
+        font-size: 16px; /* Ajusta o tamanho da fonte */
+    }
+}
