@@ -33,7 +33,7 @@ body{
 
 #img img{
     margin-top: 3%;
-    width: 503px;
+    width: 453px;
     height: 217px;
     border-radius: 108.5px;
     margin-left: 15%;
@@ -232,4 +232,5 @@ body{
     #contato p {
         font-size: 16px; /* Ajusta o tamanho da fonte */
     }
+
 }
