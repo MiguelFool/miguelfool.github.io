@@ -33,9 +33,9 @@ body{
 
 #img img{
     margin-top: 3%;
-    width: 453px;
+    width: 403px;
     height: 217px;
-    border-radius: 108.5px;
+    border-radius: 100.5px;
     margin-left: 15%;
 }
 
@@ -234,3 +234,4 @@ body{
     }
 
 }
+
